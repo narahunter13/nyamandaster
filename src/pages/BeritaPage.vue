@@ -72,7 +72,7 @@ const columns: QTableColumn[] = [
 ];
 
 export default defineComponent({
-  name: 'PublikasiPage',
+  name: 'BeritaPage',
 
   setup() {
     Loading.show({

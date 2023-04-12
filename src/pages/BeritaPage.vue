@@ -1,7 +1,7 @@
 <template>
   <q-page padding>
     <div class="q-pa-md">
-      <q-table title="Daftar Publikasi BPS Kota Lubuklinggau" :rows="rows" :columns="columns" row-key="pub_id"
+      <q-table title="Daftar BRS BPS Kota Lubuklinggau" :rows="rows" :columns="columns" row-key="pub_id"
         v-model:pagination="myPagination" :separator="'cell'" :filter="filter" @request="handleRequest">
         <template v-slot:header="props">
           <q-tr :props="props">
